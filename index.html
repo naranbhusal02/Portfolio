@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narayan Bhusal</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+            <div class="container justify-content-between align-items-center">
+                <a class="navbar-brand" href="#"><img src="Images/profile-pic(4).png" alt="Logo" class="logo"></a>
+                
+                <!-- Mobile Menu Button -->
+                <button class="navbar-toggler" type="button" aria-label="Toggle navigation">
+                    <span class="fas fa-bars"></span> <!-- FontAwesome menu icon -->
+                </button>
+                
+                <!-- Navigation Links -->
+                <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#review">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Connect</a>
+                        </li>
+                    </ul>
+                </div>
+                <a href="#call" class="btn call-btn">Set up call</a>
+            </div>
+        </nav>
+    </header>
+    
+    
+    <script src="nav.js"></script>
+    <main>
+        <section id="home">
+            <div class="hero-text">
+                <h1 class="animate-text">Narayan Bhusal</h1>
+                <p class="animate-text">Graphic Designer & Frontend Web Developer</p>
+            </div>
+            <div class="scroll-indicator">
+                <span class="chevron"></span>
+                <span class="chevron"></span>
+                <span class="chevron"></span>
+            </div>
+        </section>
+<!--Start About section-->
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="content">
+                    <div class="text-content">
+                        <p class="intro">Hello! I'm <span class="highlight">Narayan Bhusal</span>, a passionate graphics designer with a keen eye for detail and a love for creating visually stunning experiences.</p>
+                        <p>With about 2.5 years of experience in the industry, I specialize in:</p>
+                        <ul class="skills">
+                            <li>Brand Identity Design</li>
+                            <li>UI/UX Design</li>
+                            <li>Graphics Design</li>
+                            <li>Frontend Web Development</li>
+                        </ul>
+                        <p>My goal is to bring your ideas to life through captivating visuals that leave a lasting impression.</p>
+                    </div>
+                    <div class="image-container">
+                        <img src="Images/Profile.png" alt="Narayan Bhusal - Graphics Designer" class="profile-image">
+                        <div class="shape shape-1"></div>
+                        <div class="shape shape-2"></div>
+                        <div class="shape shape-3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--Start gallery section-->
+
+
+<!--Start Skills Section-->
+<section id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+        <div class="skill-card" data-skill="Graphics Designing">
+            <div class="skill-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="M2 2l7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle></svg>
+            </div>
+            <h3>Graphics Designing</h3>
+            <div class="skill-bar">
+                <div class="skill-progress" data-progress="70"></div>
+            </div>
+        </div>
+        <div class="skill-card" data-skill="Basic Video Editing">
+            <div class="skill-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="23 7 16 12 23 17 23 7"></polygon><rect x="1" y="5" width="15" height="14" rx="2" ry="2"></rect></svg>
+            </div>
+            <h3>Basic Video Editing</h3>
+            <div class="skill-bar">
+                <div class="skill-progress" data-progress="50"></div>
+            </div>
+        </div>
+        <div class="skill-card" data-skill="Frontend Web Development">
+            <div class="skill-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+            </div>
+            <h3>Frontend Web Development</h3>
+            <div class="skill-bar">
+                <div class="skill-progress" data-progress="75"></div>
+            </div>
+        </div>
+        <div class="skill-card" data-skill="UI/UX Design">
+            <div class="skill-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+            </div>
+            <h3>UI/UX Design</h3>
+            <div class="skill-bar">
+                <div class="skill-progress" data-progress="65"></div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="skill.js"></script>
+<!--End Skills Section-->
+
+<!--Start Qualifictaion Section-->
+<section id="qualifications">
+    <h2>My Qualifications/Achievements</h2>
+    <div class="timeline">
+        <div class="timeline-item" data-year="2024">
+            <div class="timeline-content">
+                <h3>Grade-10 passed in Computer Engineering</h3>
+                <p>Kalika Manavgyan Secondary School</p>
+                <p>Specialized in technical subjects like web development and language learning.</p>
+            </div>
+        </div>
+        <div class="timeline-item" data-year="2026">
+            <div class="timeline-content">
+                <h3>Grade 11 running</h3>
+                <p>Kalika Manavgyan Secondary School</p>
+                <p>Currently studying for bettter grades</p>
+            </div>
+        </div>
+        <div class="timeline-item" data-year="2023">
+            <div class="timeline-content">
+                <h3>Organizing Programs Since</h3>
+                <p>About technical skills and tools </p>
+                <p>Worked on Organizing Programs for social good</p>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="qualification.js"></script>
+<!--End Qualification Section-->
+
+
+<!--Start download resume-->
+
+<!--End download resume-->
+
+   <!--Start Gallery Section-->
+   <section id="portfolio" class="gallery">
+    <div class="container">
+        <h2 class="section-title">Gallery</h2>
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item graphic">
+                <img src="Images/blog2.png" alt="Logo Design">
+                <div class="item-overlay">
+                    <h3>Logo</h3>
+                    <p>Logo and branding for a Restaurant</p>
+                </div>
+            </div>
+            <div class="gallery-item web">
+                <img src="Images/gallery-5.jpg" alt="E-commerce Website">
+                <div class="item-overlay">
+                    <h3>Unit Conversion System</h3>
+                    <p>Unit conversion system using C++</p>
+                </div>
+            </div>
+            <div class="gallery-item graphic">
+                <img src="Images/gallery-2.jpg" alt="Illustration Series">
+                <div class="item-overlay">
+                    <h3>Poster Design</h3>
+                    <p>Designing poster for a pizza cafe</p>
+                </div>
+            </div>
+            <div class="gallery-item web">
+                <img src="Images/gallery-3.png" alt="Portfolio Website">
+                <div class="item-overlay">
+                    <h3>Portfolio Website</h3>
+                    <p>Custom-built portfolio using HTML, CSS, and JavaScript</p>
+                </div>
+            </div>
+            <div class="gallery-item graphic">
+                <img src="Images/gallery-1.jpg" alt="Packaging Design">
+                <div class="item-overlay">
+                    <h3>Poster Design</h3>
+                    <p>Poster design for a Hot Dog Cafe</p>
+                </div>
+            </div>
+            <div class="gallery-item web">
+                <img src="Images/gallery-4.png" alt="Web App Dashboard">
+                <div class="item-overlay">
+                    <h3>Interactive Todo List</h3>
+                    <p>Interactive Todo List app using HTML, CSS and JS</p>
+                </div>
+            </div>
+            <!-- Add more gallery items here -->
+            <div class="gallery-item graphic">
+                <img src="Images/gallery-7.jpeg" alt="Illustration Series">
+                <div class="item-overlay">
+                    <h3>Poster Design</h3>
+                    <p>Designing poster for a restaurant</p>
+                </div>
+            </div>
+            <div class="gallery-item graphic">
+                <img src="Images/gallery-6.jpeg" alt="Illustration Series">
+                <div class="item-overlay">
+                    <h3>Poster Design</h3>
+                    <p>Designing poster for a Barbeque</p>
+                </div>
+            </div>
+            <div class="gallery-item graphic">
+                <img src="Images/gallery-9.jpeg" alt="Illustration Series">
+                <div class="item-overlay">
+                    <h3>Poster Design</h3>
+                    <p>Designing poster for a Chicken Dish</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item graphic">
+                <img src="Images/gallery-8.jpeg" alt="Illustration Series">
+                <div class="item-overlay">
+                    <h3>Poster Design</h3>
+                    <p>Designing poster for a Pizza Cafe</p>
+                </div>
+            </div>
+            <div class="gallery-item graphic">
+                <img src="Images/gallery-10.jpeg" alt="Illustration Series">
+                <div class="item-overlay">
+                    <h3>Poster Design</h3>
+                    <p>Designing poster for a Noodles</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item graphic">
+                <img src="Images/gallery-11.jpeg" alt="Illustration Series">
+                <div class="item-overlay">
+                    <h3>Poster Design</h3>
+                    <p>Designing poster for a Burger</p>
+                </div>
+            </div>
+            
+            <div class="gallery-item graphic">
+                <img src="Images/gallery-13.png" alt="Illustration Series">
+                <div class="item-overlay">
+                    <h3>Poster Design</h3>
+                    <p>Designing poster for a Spring Rolls</p>
+                </div>
+            </div>
+            <div class="gallery-item graphic">
+                <img src="Images/gallery-12.jpeg" alt="Illustration Series">
+                <div class="item-overlay">
+                    <h3>Poster Design</h3>
+                    <p>Designing poster for a Spring Rolls</p>
+                </div>
+            </div>
+            <div class="gallery-item graphic">
+                <img src="Images/gallery-14.png" alt="Illustration Series">
+                <div class="item-overlay">
+                    <h3>Dashain Designs</h3>
+                    <p>Designing poster for Dashain Festival</p>
+                </div>
+            </div>
+            <div class="gallery-item graphic">
+                <img src="Images/gallery-15.png" alt="Illustration Series">
+                <div class="item-overlay">
+                    <h3>Dashain Designs</h3>
+                    <p>Designing poster for Dashain Festival</p>
+                </div>
+            </div>
+            <div class="gallery-item graphic">
+                <img src="Images/gallery-16.png" alt="Illustration Series">
+                <div class="item-overlay">
+                    <h3>Dashain Designs</h3>
+                    <p>Designing poster for Dashain Festival</p>
+                </div>
+            </div>
+        </div>
+        <!-- See More/Less Button -->
+        <button id="toggle-more" class="see-more-btn">See More</button>
+    </div>
+</section>
+<script src="gallery.js"></script>
+
+    <!--End gallery section-->
+
+
+<!--Start services section-->
+<section id="services">
+    <h2>My Services</h2>
+    <div class="services-container">
+        <div class="service-card" data-service="poster">
+            <div class="service-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+            </div>
+            <h3>Poster Design</h3>
+            <p>Eye-catching posters that convey your message effectively.</p>
+            <div class="price-tag">Rs.250-500</div>
+            <a href="#contact" class="learn-more">Learn More</a>
+        </div>
+        <div class="service-card" data-service="logo">
+            <div class="service-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 16.1A5 5 0 0 1 5.9 20M2 12.05A9 9 0 0 1 9.95 20M2 8V6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2h-6"/><line x1="2" y1="20" x2="2" y2="20"/></svg>
+            </div>
+            <h3>Logo Design</h3>
+            <p>Unique and memorable logos that represent your brand.</p>
+            <div class="price-tag">Rs.500-1000</div>
+            <a href="#contact" class="learn-more">Learn More</a>
+        </div>
+        <div class="service-card" data-service="ui">
+            <div class="service-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+            </div>
+            <h3>UI Design</h3>
+            <p>Intuitive and visually appealing user interfaces for web and mobile.</p>
+            <div class="price-tag">Rs.5k-10k</div>
+            <a href="#contact" class="learn-more">Learn More</a>
+        </div>
+    </div>
+</section>
+<script src="services.js"></script>
+<!--End services section-->
+
+
+<!--Start testimonial-->
+    <section id="review">
+        <div class="container">
+            <h2 class="section-title">What Clients Say</h2>
+            <div class="testimonial-carousel">
+                <div class="testimonial-track">
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <p>"Narayan's design are stunning and has extra ordinary visuals visualizing alll needed data in the designs with high quality results."</p>
+                            <div class="testimonial-author">
+                                <img src="Images/Rana Food services.png" alt="Rana Food Services" class="author-image">
+                                <div class="author-info">
+                                    <h3>Safal Rana</h3>
+                                    <p>Owner, Rana Food Services</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <p>"Working with Naran was a pleasure.His graphics designing skills brought our vision to life with smooth animations and expressive designs."</p>
+                            <div class="testimonial-author">
+                                <img src="Images/client.png" alt="Ashok Patel" class="author-image">
+                                <div class="author-info">
+                                    <h3>Ashok Patel</h3>
+                                    <p>Owner, Hot Dog Cafe</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-content">
+                            <p>"Naran's ability to combine beautiful design with efficient elements is remarkable. Our page has never looked or performed better!"</p>
+                            <div class="testimonial-author">
+                                <img src="Images/client.png" alt="Anil Sharma" class="author-image">
+                                <div class="author-info">
+                                    <h3>Anil Sharma</h3>
+                                    <p>Owner, Pizza On Break</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="control-btn prev" aria-label="Previous testimonial">&#8592;</button>
+                <button class="control-btn next" aria-label="Next testimonial">&#8594;</button>
+            </div>
+        </div>
+    </section>
+    <script src="testimonial.js"></script>
+    <!--End testimonial-->
+
+        <!--Start Contact Section-->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title">Get in Touch</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Let's Create Something Amazing Together</h3>
+                        <p>I'm always open to new projects and collaborations. Feel free to reach out!</p>
+                        <ul class="contact-details">
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:contactwithnaran@gmail.com">contactwithnaran@gmail.com</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-phone"></i>
+                                <a href="tel:+977 9842992389">+(977) 9842992389</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Butwal, Nepal</span>
+                            </li>
+                        </ul>
+                        <div class="social-links">
+                            <a href="https://www.github.com/naranbhusal02" class="social-icon" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/naranbhusal02" class="social-icon" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://www.dribbble.com/naranbhusal02" class="social-icon" aria-label="Dribbble">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+                            <a href="https://www.behance.net/naranbhusal02" class="social-icon" aria-label="Behance">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="https://www.facebook.com/naranbhusal02" class="social-icon" aria-label="Facebook">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <div class="decoration-element circle"></div>
+            <div class="decoration-element square"></div>
+            <div class="decoration-element triangle"></div>
+        </section>
+        <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+        <script src="contact.js"></script>
+        <!--End Contact Section-->
+   
+    <!-- Calendly inline widget begin -->
+    <section id="call">
+        <h2 class="section-title">Book a Call</h2>
+        <p style="text-align: center;">Let's discuss your project requirements and how I can help bring your vision to life.</p>
+<div class="calendly-inline-widget" data-url="https://calendly.com/iamnarayan02/graphics-designing?primary_color=ff6b6b" style="min-width:320px;height:700px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+        </section><!-- Calendly inline widget end -->
+    </main>
+    <!--Start footer Section-->
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h2 class="logo-text">Narayan Bhusal</h2>
+                <p>
+                    Passionate graphics designer and frontend developer creating stunning digital experiences.
+                </p>
+                <div class="contact">
+                    <span><i class="fas fa-phone"></i> &nbsp;+(977) 9842992389</span>
+                    <span><i class="fas fa-envelope"></i> &nbsp; contactwithnaran@gmail.com</span>
+                </div>
+                <div class="socials">
+                    <a href="https://www.github.com/naranbhusal02" class="social-icon" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/naranbhusal02" class="social-icon" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.dribbble.com/naranbhusal02" class="social-icon" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                    <a href="https://www.behance.net/naranbhusal02" class="social-icon" aria-label="Behance"><i class="fab fa-behance"></i></a>
+                    <a href="https://www.facebook.com/naranbhusal02" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/naranbhusal02" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#about">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section newsletter">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to my newsletter for the latest updates on my work and industry insights.</p>
+                <form action="#" method="post" id="newsletter-form">
+                    <input type="email" name="email" class="text-input newsletter-input" placeholder="Your email address..." required>
+                    <button type="submit" class="btn btn-big newsletter-btn">
+                        <i class="fas fa-paper-plane"></i>
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 Narayan Bhusal | Designed with <i class="fas fa-heart"></i> by Narayan Bhusal
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous"></script>
+    <script src="footer.js"></script>
+    <!--End Footer Section-->
+
+    <script src="script.js"></script>
+</body>
+</html>
